@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&family=Roboto:ital@1&display=swap");
+
+.App {
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.from-ui {
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px 50px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  gap: 10px;
+  font-family: Inter;
+  border-radius: 10px;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
+}
+form div {
+  flex-basis: 100%;
+  padding: 15px 0px;
+  width: 100%;
+  position: relative;
+}
+form .name,
+form .mobile {
+  flex-basis: 40%;
+}
+form .email,
+form .gender {
+  flex-basis: 40%;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #7c7c7c;
+  width: 100%;
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+.gender {
+  border: none;
+  border-bottom: 2px solid #7c7c7c;
+  width: 100%;
+  padding: 5px;
+}
+
+input:focus {
+  outline: none;
+  /* Additional styling if needed */
+}
+
+.btn {
+  margin: 20px;
+  padding: 8px;
+  border-radius: 40px;
+  color: white;
+  width: 160px;
+  font-size: 10px;
+  background: linear-gradient(to right, #2c86d9, #323232);
+  margin-left: 150px;
+}
+.heading {
+  color: #3e3e3e;
+  word-spacing: 0.5em;
+  font-size: 25px;
+}
+span {
+  font-size: smaller;
+  color: red;
+}
+input::placeholder {
+  font-size: 14px;
+}
+#gender {
+  border: none;
+  color: #7c7c7c;
+}
+#gender:focus {
+  outline: none;
+  /* Additional styling if needed */
+}
